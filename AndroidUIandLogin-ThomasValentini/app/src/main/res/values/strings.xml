@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">AndroidUIandLogin-ThomasValentini</string>
+    <!-- Action Bar Strings -->
+    <string name="title_bar_login_activity">Login/Sign Up </string>
+    <string name="title_bar_signup_activity">Sign Up </string>
+    <string name="title_bar_success_activity">Profile </string>
+    <string name="title_bar_all_users_activity">All Users</string>
+    <!-- TextView Strings -->
+    <!-- TextView Strings -->
+    <string name="string_or">OR</string>
+    <string name="signup_field_1">Name</string>
+    <string name="signup_field_2">Surname</string>
+    <string name="signup_field_3">Username</string>
+    <string name="signup_field_4">Birthday</string>
+    <string name="signup_field_5">Mobile Phone</string>
+    <string name="signup_field_6">Email</string>
+    <string name="signup_field_7">Password</string>
+    <string name="success_field_1">Name</string>
+    <string name="success_field_2">Surname</string>
+    <string name="success_field_3">Username</string>
+    <string name="success_field_4">Birthday</string>
+    <string name="success_field_5">Mobile Phone</string>
+    <string name="success_field_6">Email</string>
+    <!-- Button Strings -->
+    <string name="login">LOGIN</string>
+    <string name="signup">SIGN UP</string>
+    <string name="confirm">CONFIRM</string>
+    <string name="view_all_users">VIEW ALL USERS</string>
+    <!-- EditText Hints -->
+    <string name="login_field_1_hint">Email or ID</string>
+    <string name="login_field_2_hint">Password</string>
+    <string name="signup_field_1_hint">John</string>
+    <string name="signup_field_2_hint">Appleseed</string>
+    <string name="signup_field_3_hint">Username</string>
+    <string name="signup_field_4_hint">MM/DD/YYYY</string>
+    <string name="signup_field_5_hint">123-456-7890</string>
+    <string name="signup_field_6_hint">someone@example.com</string>
+    <string name="signup_field_7_hint">Password</string>
+    <!--Toast Strings-->
+    <string name="user_create">User Successfully Created</string>
+    <string name="login_fail">Login Failed: Incorrect Username or Password</string>
+    <string name="signup_fail">Sign Up Failed: Username or Email already exists</string>
+</resources>

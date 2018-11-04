@@ -1,0 +1,22 @@
+<resources>
+    <!-- App Name String -->
+    <string name="app_name">AndroidApp-ThomasValentini</string>
+   <!-- Main Activity Strings -->
+    <!-- Text View Strings -->
+    <string name="email">someone@example.com</string>
+    <string name="subject">Subject</string>
+    <string name="message">Message</string>
+
+    <string name="welcome_message">WELCOME to the EMAIL CLIENT!</string>
+    <!-- Button Strings -->
+    <string name="pass_params">Pass Params</string>
+    <string name="test_button">Test</string>
+    <string name="third_party_component">Third Party Component</string>
+    <!-- simpleClick String -->
+    <string name="simple_click">simpleClick() active</string>
+    <!-- onClickListener Strings -->
+    <string name="on_click">onClick() active</string>
+
+    <!-- Second Screen Activity Strings -->
+    <string name="textViewParams">Parameters: </string>
+</resources>

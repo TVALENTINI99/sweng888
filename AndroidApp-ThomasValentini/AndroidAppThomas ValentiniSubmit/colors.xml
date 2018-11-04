@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Gemeral Color Palette -->
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <!-- Custom Colors -->
+    <color name="colorPassParams">#607d8b</color>
+    <color name="colorThirdParty">#ff5252</color>
+    <color name="colorTest">#4caf50</color>
+    <color name="colorBackground">#00e5ff</color>
+    <color name="colorTextBox">#bdbdbd</color>
+
+
+
+</resources>
