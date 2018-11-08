@@ -35,14 +35,11 @@ public class SignUpActivity extends AppCompatActivity {
     private EditText mEditTextPassword;
     //Button
     private Button mButtonConfirm;
-    //TODO: Set Up SignUp Layout Variables in SignUp Activity
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up);
-        //TODO: Fix spacing to how i normally do it in SignUp Activity
-        //TODO: Add Comments where nessecary in SignUp Activity
 
         //ActionBar Setup
         mActionBarSignUp=getSupportActionBar();
