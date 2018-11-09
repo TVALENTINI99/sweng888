@@ -5,7 +5,14 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteException;
+import android.support.annotation.NonNull;
+import android.util.Log;
 import android.widget.Toast;
+
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.*;
 
 import java.util.ArrayList;
 
@@ -19,9 +26,11 @@ public class UserProfilePersistence implements IPersistence{
     //Class Methods
     @Override
     public void insert(Object o) {
-
+        FirebaseAuth mAuth=FirebaseAuth.getInstance();
         // Cast the generic object to have access to the profile info.
         UserProfile profile = (UserProfile) o;
+        mAuth.createUserWithEmailAndPassword(profile.getEmail(), profile.getPassword());
+
 
         SQLiteDatabase sqLiteDatabase = databaseAccess.getWritableDatabase();
         // The ContentValues object create a map of values, where the columns are the keys

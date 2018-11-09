@@ -1,8 +1,9 @@
 package thomasvalentini.androiduiandlogin.sweng888.psu.edu.androiduiandlogin_thomasvalentini.model.entity;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class UserProfile {
+public class UserProfile implements Serializable {
 
     //Model Variables
     private long ID;
@@ -13,10 +14,9 @@ public class UserProfile {
     private String mobile_phone;
     private String email;
     private String password;
+    private String provider;
 
-    //Constructors
-
-    public UserProfile(long ID, String name, String surname, String username, String birthday, String mobile_phone, String email, String password) {
+    public UserProfile(long ID, String name, String surname, String username, String birthday, String mobile_phone, String email, String password, String provider) {
         this.ID = ID;
         this.name = name;
         this.surname = surname;
@@ -25,6 +25,25 @@ public class UserProfile {
         this.mobile_phone = mobile_phone;
         this.email = email;
         this.password = password;
+        this.provider = provider;
+    }
+
+    ;
+
+    public UserProfile(String name, String surname, String username, String birthday, String mobile_phone, String email, String password, String provider) {
+        this.name = name;
+        this.surname = surname;
+        this.username = username;
+        this.birthday = birthday;
+        this.mobile_phone = mobile_phone;
+        this.email = email;
+        this.password = password;
+        this.provider = provider;
+    }
+
+    public UserProfile(String email, String provider) {
+        this.email = email;
+        this.provider = provider;
     }
 
     public UserProfile(String name, String surname, String username, String birthday, String mobile_phone, String email, String password) {
@@ -37,8 +56,13 @@ public class UserProfile {
         this.password = password;
     }
 
-    //Getters/Setters
+    public long getID() {
+        return ID;
+    }
 
+    public void setID(long ID) {
+        this.ID = ID;
+    }
 
     public String getName() {
         return name;
@@ -95,4 +119,13 @@ public class UserProfile {
     public void setPassword(String password) {
         this.password = password;
     }
+
+    public String getProvider() {
+        return provider;
+    }
+
+    public void setProvider(String provider) {
+        this.provider = provider;
+    }
 }
+

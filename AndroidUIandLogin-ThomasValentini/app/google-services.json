@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "744847701854",
+    "firebase_url": "https://androiduiandlogin-thomasvalent.firebaseio.com",
+    "project_id": "androiduiandlogin-thomasvalent",
+    "storage_bucket": "androiduiandlogin-thomasvalent.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:744847701854:android:90f40f50291f757b",
+        "android_client_info": {
+          "package_name": "thomasvalentini.androiduiandlogin.sweng888.psu.edu.androiduiandlogin_thomasvalentini"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "744847701854-et0medc4qgbqf6e46obu2t0vsfrobns2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "thomasvalentini.androiduiandlogin.sweng888.psu.edu.androiduiandlogin_thomasvalentini",
+            "certificate_hash": "4a65e65a59873425df89908c66f00e040b10f048"
+          }
+        },
+        {
+          "client_id": "744847701854-uoqlghkr465pt32guia57tjgq5lbqu81.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYEeXXH58Wem6qy608G0Ls-wmeZ8ZKPmg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "744847701854-uoqlghkr465pt32guia57tjgq5lbqu81.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
