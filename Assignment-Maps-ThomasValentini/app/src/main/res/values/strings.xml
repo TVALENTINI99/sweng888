@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">assignment-maps-thomasvalentini</string>
+    <string name="google_maps_key">AIzaSyDBTmGgoL7r2-z2LicKa0D9T73yDB92OJ4</string>
+    <string name="location_text_view">Location</string>
+    <string name="latitude_text_view">Latitude</string>
+    <string name="longitude_text_view">Longitude</string>
+    <string name="navigation_button">Navigate</string>
+
+</resources>
